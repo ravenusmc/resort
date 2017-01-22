@@ -1,0 +1,18 @@
+/* General CSS */
+
+nav {
+  text-align: center;
+}
+
+#wrapper {
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* CSS for Home/index page */
+
+.heading {
+  text-align: center;
+}
+
