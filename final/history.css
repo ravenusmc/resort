@@ -4,6 +4,14 @@ nav {
   text-align: center;
 }
 
+.center {
+  text-align: center;
+}
+
+.fix_underline {
+  text-decoration: none;
+}
+
 #wrapper {
   width: 75%;
   margin-right: auto;
@@ -18,5 +26,15 @@ footer {
 
 .heading {
   text-align: center;
+}
+
+/* CSS for FAQ Page */
+
+.sub_heading {
+  color: blue;
+}
+
+dt {
+  font-weight: bold;
 }
 
