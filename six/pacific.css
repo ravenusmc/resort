@@ -1,3 +1,11 @@
+header, nav, main, footer {
+  display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 body {
   background-color: #FFFFFF;
   background-image: url(background.jpg);
@@ -15,6 +23,10 @@ main {
   padding-left: 20px;
   padding-right: 20px;
   display: block;
+  background-color: #FFFFFF;
+  margin-left: 170px;
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
 #homehero {
@@ -22,6 +34,7 @@ main {
   background-image: url(coast.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  margin-left: 170px;
 }
 
 #yurthero {
@@ -29,6 +42,7 @@ main {
   background-image: url(yurt.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  margin-left: 170px;
 }
 
 #trailhero {
@@ -36,6 +50,7 @@ main {
   background-image: url(trail.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  margin-left: 170px;
 }
 
 h1 {
@@ -50,12 +65,31 @@ h1 {
 
 nav {
   font-weight: bold;
-  background-color: #90C7E3;
-  padding-left: 5px;
+  float: left;
+  width: 160px;
+  padding: 20px 5px 0 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 nav a {
   text-decoration: none;
+}
+
+nav a:link {
+  color: #000033;
+}
+
+nav a:visited {
+  color: #344873;
+}
+
+nav a:hover {
+  color: #FFFFFF;
 }
 
 h2 {
@@ -83,13 +117,15 @@ footer {
   font-style: italic;
   text-align: center;
   padding-bottom: 10px;
+  background-color: #FFFFFF;
+  margin-left: 170px;
 }
 
 #wrapper {
   width: 80%;
   margin-right: auto;
   margin-left: auto;
-  background-color: #ffffff;
+  background-color: #90C7E3;
   min-width: 700px;
   max-width: 1024px;
   box-shadow: 5px 5px 5px #828282;
