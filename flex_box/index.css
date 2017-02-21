@@ -26,6 +26,7 @@ header {
 #demo {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /*#container {
@@ -40,12 +41,12 @@ nav {
 }
 
 main {
-  flex: 7
+  flex: 6;
 }
 
 aside {
-  flex: 2;
-  order: 2;
+  flex: 3;
+  order: 1;
 }
 
 /*nav {
