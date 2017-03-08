@@ -13,6 +13,13 @@
   background-size: 100% 100%;
 }
 
+#services {
+  height: 300px;
+  background-image: url(roof_services.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 h1 {
   color: #91FF33;
   margin-top: 10%;
@@ -111,6 +118,56 @@ button a:hover {
 
 .damage {
   width: 200px;
+}
+
+.services_main {
+  border-top: white solid 3px;
+}
+
+.description_list {
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+#pricing {
+  border-top: white solid 3px;
+  padding-top: 10px;
+}
+
+.table {
+  margin-bottom: 25px;
+}
+
+.table_note {
+  margin: auto;
+  width: 90%;
+  margin-top: 3px;
+}
+
+table {
+  margin: auto;
+  border: 1px solid #91FF33;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #91FF33;
+}
+
+th {
+  padding: 5px;
+  border: 1px solid #91FF33;
+}
+
+.fix_alignment {
+  text-align: left;
 }
 
 footer {
