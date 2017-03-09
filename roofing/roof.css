@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }*/
 
+body {
+  background-color: #E7E9EC;
+}
+
 #home {
   height: 300px;
   background-image: url(roof_one.jpg);
@@ -20,8 +24,15 @@
   background-size: 100% 100%;
 }
 
+#about {
+  height: 300px;
+  background-image: url(evening.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 h1 {
-  color: #91FF33;
+  color: #84AECF;
   margin-top: 10%;
   margin-left: 25%;
   margin-right: 25%;
@@ -36,15 +47,15 @@ h1 {
 }
 
 h3 {
-  color: #91FF33;
+  color: #84AECF;
   text-align: center;
 }
 
 #wrapper {
-  width: 80%;
+  width: 90%;
   margin-right: auto;
   margin-left: auto;
-  background-color: #A133FF;
+  background-color: #645D4B;
   min-width: 700px;
   max-width: 1024px;
   box-shadow: 15px 15px 15px #828282;
@@ -54,12 +65,12 @@ h3 {
 
 nav {
   text-align: center;
-  background-color: #91FF33;
+  background-color: #84AECF;
   border-top: solid 2px white;
 }
 
 button {
-  background-color: #A133FF;
+  background-color: #645D4B;
   border-radius: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -67,30 +78,27 @@ button {
 }
 
 button a {
-  color: #91FF33;
+  color: #E7E9EC;
 }
 
 button:hover {
-  background-color: white;
+  background-color: #E7E9EC;
 }
 
 button a:hover {
-  color: #A133FF;
-  background-color: #91FF33;
+  color: #645D4B;
+  background-color: #84AECF;
 }
-
-
 
 .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  border-top: solid 2px white;
-  border-bottom: solid 2px white;
+  border-top: solid 2px #E7E9EC;
+  border-bottom: solid 2px #E7E9EC;
 }
 
 .one {
-  text-align: center;
   flex: 6;
   padding-left: 10px;
   padding-right: 10px;
@@ -100,12 +108,13 @@ button a:hover {
   float: left;
 }
 
+
 #work_two {
   float: right;
 }
 
 .two {
-  border-left: solid 2px white;
+  border-left: solid 2px #E7E9EC;
   flex: 4;
 
 }
@@ -121,7 +130,7 @@ button a:hover {
 }
 
 .services_main {
-  border-top: white solid 3px;
+  border-top: #E7E9EC solid 3px;
 }
 
 .description_list {
@@ -150,7 +159,7 @@ dt {
 
 table {
   margin: auto;
-  border: 1px solid #91FF33;
+  border: 2px solid #84AECF;
   width: 90%;
   border-collapse: collapse;
 }
@@ -158,12 +167,16 @@ table {
 td {
   text-align: center;
   padding: 5px;
-  border: 1px solid #91FF33;
+  border: 2px solid #84AECF;
 }
 
 th {
   padding: 5px;
-  border: 1px solid #91FF33;
+  border: 2px solid #84AECF;
+}
+
+tr {
+  
 }
 
 .fix_alignment {
@@ -174,6 +187,29 @@ footer {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.container_about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-top: solid 2px #E7E9EC;
+  border-bottom: solid 2px #E7E9EC;
+}
+
+.about_one {
+  flex: 6;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.about_two {
+  flex: 4;
+  border-left: solid 2px #E7E9EC;
+}
+
+h4 {
+  text-align: center;
 }
 
 @media only all and (max-width: 1024px){
@@ -196,7 +232,7 @@ footer {
   }
 
   button {
-  background-color: #A133FF;
+  background-color: #645D4B;
   font-size: 1em;
   border-radius: 15px;
   margin-top: 10px;
