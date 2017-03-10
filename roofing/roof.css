@@ -59,8 +59,6 @@ h3 {
   min-width: 700px;
   max-width: 1024px;
   box-shadow: 15px 15px 15px #828282;
-/*  display: flex;
-  flex-flow: column wrap;*/
 }
 
 nav {
@@ -198,14 +196,26 @@ footer {
 }
 
 .about_one {
-  flex: 6;
-  padding-left: 10px;
-  padding-right: 10px;
+  flex: 5;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .about_two {
-  flex: 4;
+  flex: 5;
   border-left: solid 2px #E7E9EC;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.gif_alignment {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gif {
+  width: 300px;
 }
 
 h4 {
