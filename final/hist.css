@@ -1,0 +1,152 @@
+/* General CSS */
+
+#wrapper {
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Arial;
+}
+
+nav {
+  height: 50px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px;
+  background-color: #d9dbdd;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+nav h1 {
+  display: inline;
+}
+
+nav ul {
+  display: inline;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  background-color: red;
+}
+
+nav ul li{
+  display:inline;
+}
+
+main {
+  padding-bottom: 50px;
+}
+
+.center {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: #d9dbdd; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+  margin-top: -15px;
+  border-top: solid 3px black;
+}
+
+/* CSS for Home/index page */
+
+.container {
+  margin-top: 3px;
+  background-color: #d9dbdd; 
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.area_one {
+  flex: 4;
+  margin-left: 10px;
+}
+
+.title_home_main {
+  text-align: center;
+}
+
+.area_two {
+  flex: 6;
+}
+
+.area_two img {
+  width: 100%;
+}
+
+/* CSS for Home/index/FAQ section */
+
+#faq_section {
+  background-color: #d9dbdd;
+  border-top: solid 3px black;
+}
+
+
+dl {
+  margin-left: 2%;
+}
+
+dt {
+  font-weight: bold;
+}
+
+/* CSS for Home/index/About section */
+#about_section {
+  margin-top: -20px;
+  background-color: #d9dbdd;
+  border-top: solid 3px black;
+  padding-bottom: 10px;
+}
+
+.about_paragraph {
+  margin-left: 2%;
+}
+
+@media only all and (max-width: 768px){
+
+  #wrapper {
+    width: auto;
+    min-width: 0;
+    margin: 0;
+    box-shadow: none;
+  }
+
+  nav {
+    height: 300px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px;
+    background-color: #d9dbdd;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  nav a {
+    display: block;
+    font-size: 1.3em;
+    text-decoration: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .title_home_main {
+    text-align: center;
+    font-size: 2.3em;
+  }
+
+
+}

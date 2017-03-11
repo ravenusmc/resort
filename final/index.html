@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang='en'>
 <head>
-  <title>Mike's History</title>
   <meta charset='utf-8'>
-  <link rel="stylesheet" type="text/css" href="history.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mike's History</title>
+  <link rel="stylesheet" type="text/css" href="hist.css">
   <link rel="icon" href="ega.png" type="image/icon">
 </head>
 <body>
@@ -11,23 +12,23 @@
   <div id='wrapper'>
 
     <!-- Navbar -->
-    <nav class='nav'>
+    <nav class='nav' role='navigation'>
       <h1>Mike's History Site</h1>
       <ul>
         <li><a href="index.html">Home</a></li>&nbsp;
-        <li><a href="faq.html">FAQ</a></li>&nbsp;
+        <li><a href="#faq_section">FAQ</a></li>&nbsp;
+        <li><a href="#about_section">About Me</a></li>&nbsp;
         <li><a href="teutoburg.html">Battle of Teutobrug Forest</a></li>&nbsp;
         <li><a href="verdun.html">Treaty of Verdun</a></li>&nbsp;
         <li><a href="reservations.html">Books</a></li>
       </ul>
-
     </nav>
 
     <!-- Main Elements -->
-    <main class='container'>
+    <main class='container' role='main'>
 
       <div class='area_one'>
-        <h2>Learn History</h2>
+        <h2 class='title_home_main'>Learn History</h2>
         <p>Mike's History Site is a great place to learn about history from a 50,000 foot level</p>
         <ul>
           <li>Learn how modern Europe came to be</li>
@@ -38,10 +39,47 @@
       </div>
 
       <div class='area_two'>
-        <img src="main.jpg">
+        <img src="main.jpg" alt='image of map and compass'>
       </div>
-      
+
     </main>
+
+    <section id='faq_section'>
+      <h2 class='center sub_heading'>FAQ</h2>
+      <!-- HTML for Question and Answer parts of the website --> 
+      <dl>
+        <dt>What is the point of this site?</dt>
+          <br>
+            <dd>This site is the final project for my web development class at Gwinnet Tech.
+            However, I have a background in history, political science and I love the Humanities. So, I decided to build a site that would have a humanities aspect to it. At the same time, I am also a tutor for history so this site will be able to advertise my skills to others.</dd>
+          <br>
+        <dt>May one actually order tutoring services from the site?</dt>
+          <br> 
+            <dd>At this current time, there is actually no real way to order tutoring services from the site. The e-commerce portion of this site does not actually allow you to place any real orders. It is all simulated.</dd>
+          <br>
+        <dt>Is the information on the site accurate?</dt>
+          <br>
+            <dd>All of the information found on this site is accurate and is backed up by a thorough bibliography-which one may look at the link for that page <a class='fix_underline' href='biblio.html'>here.</a> I guess you can say that in many ways I gave myself extra work ensuring that all of the information was accurate!</dd>
+          <br>
+        <dt>What will the books link show me?</dt>
+          <br>
+            <dd>The books page is recommendation of books that the user on the site may use to expand on the topics that this site presents.</dd>
+          <br>
+      </dl>
+    </section>
+
+    <section id='about_section'>
+      <h2 class='center sub_heading'>About Me</h2>
+
+      <p class='about_paragraph'>I have two BA's in History and Political Science from the University of California at Davis.</p>
+
+      <p class='about_paragraph'>Earlier this year, I chose to take a leap in a new direction and immerse myself in learning full stack web development. I attended the coding bootcamp Tech Talent South to invest serious time and effort toward my new passion and jump start my journey toward becoming a full stack web developer. My casual interest in web development has now become a guiding passion and I am excited to bring that passion to my next pursuit.</p>
+
+      <p class='about_paragraph'>The experience I have earned in the Marine Corps and C.I.A. has awarded me confidence and ability to accomplish tasks in a timely manner. I am a strong leader with well developed and proven organizational, problem solving, analytical and time management skills. Comfortable with technical and non-technical people on all levels of an organization. I look forward to bringing my ambition and passion for knowledge and my past professional work experience in team-oriented environments.</p>
+
+      <p class='about_paragraph'>Finally, I have fully immersed myself in the Atlanta tech community attending meetups, conferences as well as hackathons to grow as a developer. I continue to learn by staying up to date with latest languages and technologies that will help me achieve those goals.</p>
+
+    </section>
 
 
     <!-- Footer Elements -->
