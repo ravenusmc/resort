@@ -137,6 +137,17 @@ dt {
   margin-left: 2%;
 }
 
+/* CSS for Battle Page */
+
+header {
+  text-align: center;
+}
+
+
+.battle_image {
+  height: 250px;
+}
+
 /* CSS for Art Page */
 
 .art_container {
