@@ -4,20 +4,21 @@
   width: 95%;
   margin-right: auto;
   margin-left: auto;
-  font-family: Arial;
+  font-family: 'Playfair Display', serif;
 }
 
 nav {
   height: 50px;
   border-radius: 3px;
   box-shadow: 2px 2px 2px;
-  background-color: #d9dbdd;
+  background-color: #f4f6f9;
   padding-top: 10px;
   padding-left: 10px;
 }
 
 nav h1 {
   display: inline;
+  color: #1c6fed;
 }
 
 nav ul {
@@ -46,21 +47,26 @@ main {
   text-align: center;
 }
 
+main ul {
+  line-height: 2em;
+}
+
 footer {
   text-align: center;
-  background-color: #d9dbdd; 
+  background-color: #f4f6f9; 
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 3px;
   margin-top: -15px;
   border-top: solid 3px black;
+  box-shadow: 2px 2px 2px 2px;
 }
 
 /* CSS for Home/index page */
 
 .container {
   margin-top: 3px;
-  background-color: #d9dbdd; 
+  background-color: #f4f6f9; 
   border-radius: 3px;
   display: flex;
   flex-direction: row;
@@ -74,6 +80,7 @@ footer {
 
 .title_home_main {
   text-align: center;
+  color: #1c6fed;
 }
 
 .area_two {
@@ -87,8 +94,9 @@ footer {
 /* CSS for Home/index/FAQ section */
 
 #faq_section {
-  background-color: #d9dbdd;
-  border-top: solid 3px black;
+  background-color: #f4f6f9;
+  border-top: solid 2px black;
+  box-shadow: 2px 2px 2px 2px;
 }
 
 
@@ -102,15 +110,17 @@ dt {
 
 /* CSS for Home/index/About section */
 #about_section {
-  margin-top: -20px;
-  background-color: #d9dbdd;
-  border-top: solid 3px black;
+  margin-top: -15px;
+  background-color: #f4f6f9;
   padding-bottom: 10px;
 }
 
 .about_paragraph {
   margin-left: 2%;
 }
+
+
+/* CSS for media queries */
 
 @media only all and (max-width: 768px){
 
