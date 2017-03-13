@@ -150,6 +150,7 @@ hr {
   border-width: 1px 0 0 0; 
   border-radius: 20px; 
 } 
+
 hr:before { 
   display: block; 
   content: ""; 
@@ -161,6 +162,37 @@ hr:before {
   border-radius: 20px; 
 }
 
+.title {
+  text-align: left;
+}
+
+.battle_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main_info {
+  flex: 8;
+}
+
+.history_area_one {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.history_one_img {
+  flex: 2;
+}
+
+.history_one_para {
+  flex: 2;
+}
+
+.aside_container {
+  flex: 3;
+}
 
 .battle_image {
   height: 250px;
@@ -334,6 +366,18 @@ h3 {
   display: inline;
   }
 
+  /* CSS media queries for History Page */
 
+  .battle_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .history_area_one {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 
 }
