@@ -181,6 +181,9 @@ hr:before {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  border: solid 2px #F44286;
+  border-radius: 20px;
+  background-color: rgba(66, 134, 244,0.8);
 }
 
 .history_one_img {
@@ -189,11 +192,17 @@ hr:before {
 
 .history_one_para {
   flex: 2;
+  margin-left: 3%;
+  margin-right: 2%;
+
 }
 
 .aside_container {
   flex: 3;
   margin-left: 2%;
+  border-radius: 20px;
+  border: solid 2px #F44286;
+  background-color: rgba(66, 134, 244,0.8);
 }
 
 .aside_title {
@@ -385,6 +394,11 @@ h3 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+  }
+
+  .aside_container {
+    margin-top: 2%;
+    margin-bottom: 2%;
   }
 
 }
