@@ -194,7 +194,6 @@ hr:before {
   flex: 2;
   margin-left: 3%;
   margin-right: 2%;
-
 }
 
 .aside_container {
@@ -211,7 +210,8 @@ hr:before {
 }
 
 .battle_image {
-  height: 250px;
+  border-radius: 20px;
+  height: 245px;
 }
 
 /* CSS for Art Page */
@@ -360,6 +360,14 @@ h3 {
     font-size: 2.3em;
   }
 
+  .area_two {
+    display: none;
+  }
+
+  .about_two {
+    display: none;
+  }
+
   #about_section {
     margin-top: -15px;
     padding-bottom: 10px;
@@ -394,6 +402,10 @@ h3 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+  }
+
+  .battle_image {
+    display: none;
   }
 
   .aside_container {
