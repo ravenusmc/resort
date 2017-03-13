@@ -170,6 +170,7 @@ hr:before {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-bottom: 3%;
 }
 
 .main_info {
@@ -192,6 +193,12 @@ hr:before {
 
 .aside_container {
   flex: 3;
+  margin-left: 2%;
+}
+
+.aside_title {
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .battle_image {
