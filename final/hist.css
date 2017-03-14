@@ -345,6 +345,10 @@ h3 {
   margin: 1.66%;
 }
 
+.show_on_mobile {
+  display: none;
+}
+
 
 /* CSS for media queries */
 
@@ -443,6 +447,14 @@ h3 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+  }
+
+  .show_on_desktop {
+    display: none;
+  }
+
+  .show_on_mobile {
+    display: inline;
   }
 
 }
