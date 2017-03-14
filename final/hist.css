@@ -321,6 +321,30 @@ h3 {
   height: 250px;
 }
 
+/* CSS for book page */
+
+.book_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
+}
+
+.book_area_one {
+  flex: 7;
+}
+
+.book_area_two {
+  flex: 3;
+}
+
+.gallery {
+  width: 30%;
+  height: 25%;
+  float: left;
+  margin: 1.66%;
+}
+
 
 /* CSS for media queries */
 
@@ -411,6 +435,14 @@ h3 {
   .aside_container {
     margin-top: 2%;
     margin-bottom: 2%;
+  }
+
+  /* CSS media queries for Book Page */
+
+  .book_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
 }
