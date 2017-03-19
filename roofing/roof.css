@@ -154,6 +154,10 @@ h6 {
   font-size: 2em;
 }
 
+.other_site {
+  text-decoration: none;
+}
+
 .table_note {
   margin: auto;
   width: 90%;
