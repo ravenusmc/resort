@@ -186,6 +186,10 @@ hr:before {
   background-color: rgba(66, 134, 244,0.8);
 }
 
+.history_area_one a {
+  display: inline-flex;
+}
+
 .history_one_img {
   flex: 2;
 }

@@ -149,10 +149,20 @@ dt {
   margin-bottom: 25px;
 }
 
+h6 {
+  text-align: center;
+  font-size: 2em;
+}
+
 .table_note {
   margin: auto;
   width: 90%;
   margin-top: 3px;
+}
+
+span {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 table {
