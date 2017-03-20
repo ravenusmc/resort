@@ -155,18 +155,19 @@ h6 {
 }
 
 .other_site {
+  color: #84AECF;
   text-decoration: none;
+  text-transform: uppercase;
+}
+
+.other_site:hover {
+  color: black;
 }
 
 .table_note {
   margin: auto;
   width: 90%;
   margin-top: 3px;
-}
-
-span {
-  text-transform: uppercase;
-  font-weight: bold;
 }
 
 table {
