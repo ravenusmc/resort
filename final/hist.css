@@ -139,6 +139,12 @@ dt {
 
 /* CSS for Battle Page */
 
+/*#battle_page_image {
+  background-image: url(bricks.jpg);
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+}*/
+
 header {
   text-align: center;
 }
@@ -175,15 +181,18 @@ hr:before {
 
 .main_info {
   flex: 8;
+  background-image: url(old_map.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 15px;
 }
 
 .history_area_one {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  border: solid 2px #F44286;
   border-radius: 20px;
-  background-color: rgba(66, 134, 244,0.8);
+  background-color: rgba(255, 255, 255,0.8);
 }
 
 .history_area_one a {
@@ -202,10 +211,13 @@ hr:before {
 
 .aside_container {
   flex: 3;
-  margin-left: 2%;
+  background-image: url(marble.jpg);
+  margin-left: 1%;
   border-radius: 20px;
-  border: solid 2px #F44286;
-  background-color: rgba(66, 134, 244,0.8);
+  border: solid 2px #dee2e8;
+  padding: 10px;
+/*  border: solid 2px #F44286;
+  background-color: rgba(66, 134, 244,0.8);*/
 }
 
 .aside_title {
