@@ -1,7 +1,13 @@
 /* General CSS */
 
+#main_page {
+  background-image: url(deskbackground.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
 #wrapper {
-  width: 100%;
+  width: 85%;
   margin-right: auto;
   margin-left: auto;
   font-family: 'Playfair Display', serif;
@@ -11,7 +17,7 @@ nav {
   height: 50px;
   border-radius: 3px;
   box-shadow: 2px 2px 2px;
-  background-color: #f4f6f9;
+  background-color: rgba(244, 246, 249, 0.8);
   padding-top: 10px;
   padding-left: 10px;
   position: fixed;
@@ -19,6 +25,7 @@ nav {
   right:0;
   left:0;
   z-index:1030;
+  border-radius: 10px;
 }
 
 nav h1 {
@@ -44,6 +51,10 @@ nav ul li{
   display:inline;
 }
 
+header {
+  margin-top: 100px;
+}
+
 main {
   padding-bottom: 3px;
 }
@@ -63,22 +74,27 @@ footer {
   border-radius: 3px;
   margin-top: -15px;
   border-top: solid 3px black;
+  background-color: rgba(255, 255, 255,0.8);
+  margin-top: 15px;
+  border-radius: 10px;
 }
 
 /* CSS for Home/index page */
 
 .container {
-  margin-top: 3px;
-  border-radius: 3px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  background-color: rgba(255, 255, 255,0.8);
+  margin-top: 100px;
+  border-radius: 25px;
 }
 
 .area_one {
   flex: 5;
   padding-top: 100px;
   margin-left: 10px;
+
 }
 
 .title_home_main {
@@ -91,6 +107,8 @@ footer {
   background-image: url(main.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  border-radius: 25px;
+  display: inline-flex;
 }
 
 .area_two img {
@@ -102,6 +120,9 @@ footer {
 #faq_section {
   border-top: solid 2px black;
   border-bottom: solid 2px black;
+  background-color: rgba(255, 255, 255,0.8);
+  border-radius: 25px;
+  margin-top: 15px;
 }
 
 
@@ -120,6 +141,9 @@ dt {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  background-color: rgba(255, 255, 255,0.8);
+  margin-top: 15px;
+  border-radius: 25px;
 }
 
 .about_one {
@@ -340,20 +364,29 @@ h3 {
 
 /* CSS for book page */
 
+.book_page_header {
+  background-color: rgba(255, 255, 255,0.8);
+  border-radius: 25px;
+}
+
 .book_container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
 }
 
 .book_area_one {
-  flex: 7;
+  flex: 8;
   margin-bottom: 1%;
+  background-color: rgba(255, 255, 255,0.8);
+  border-radius: 25px;
+  margin-right: 5px;
 }
 
 .book_area_two {
-  flex: 3;
+  flex: 2;
+  background-color: rgba(255, 255, 255,0.8);
+  border-radius: 25px;
 }
 
 .book_gallery {
@@ -380,6 +413,7 @@ h3 {
 
 @media only all and (max-width: 768px){
 
+
   #wrapper {
     width: auto;
     min-width: 0;
@@ -404,7 +438,7 @@ h3 {
   }
 
   header {
-    margin-top: 350px;
+    margin-top: 500px;
   }
 
   .container {
