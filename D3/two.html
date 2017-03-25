@@ -6,17 +6,46 @@
 </head>
 <body>
   <svg  width="960" height="500">
+<!--     <circle cy="250" r="100"></circle>
     <circle cy="250" r="100"></circle>
-    <circle cy="250" r="100"></circle>
-    <circle cy="250" r="100"></circle>
+ -->  
   </svg>
 
   <script>
+    var data = [
+      { x: 300, y:150, r:44},
+      { x: 500, y:350, r:51},
+      { x: 700, y:50, r: 23}
+
+    ];
+
     d3.select("svg")
       .selectAll("circle")
-      .data([300, 500, 700])
-        .attr("cx", function(d) {return d;})
-        .attr("fill", "orange");
+      .data(data)
+      .enter()
+      .append("circle")
+        .attr("cx", function(d){return d.x})
+        .attr("cy", function(d){return d.y})
+        .attr("r", function(d){ return d.r})
+        .attr("fill", "rgba(255,0,0,0.3)")
+        .attr("stroke", "black");
+
+
+
+
+
+    // var data = [300,500,700]
+    // d3.select("svg")
+    //   .selectAll("circle")
+    //   .data(data)
+    //     .attr("cx", function(d) {return d;})
+    //     .attr("fill", "orange")
+    //   .enter()
+    //   .append("circle")
+    //     .attr("cx", function(d){ return d; })
+    //     .attr("cy", 250)
+    //     .attr("r", 100)
+    //     .attr("fill", "green");
   </script>
 
 </body>
