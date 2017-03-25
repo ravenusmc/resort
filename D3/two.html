@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Data Join</title>
+  <script type="text/javascript" src="http://d3js.org/d3.v4.min.js"></script>
+</head>
+<body>
+  <svg  width="960" height="500">
+    <circle cy="250" r="100"></circle>
+    <circle cy="250" r="100"></circle>
+    <circle cy="250" r="100"></circle>
+  </svg>
+
+  <script>
+    d3.select("svg")
+      .selectAll("circle")
+      .data([300, 500, 700])
+        .attr("cx", function(d) {return d;})
+        .attr("fill", "orange");
+  </script>
+
+</body>
+</html>
