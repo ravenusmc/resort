@@ -14,6 +14,7 @@
 }
 
 nav {
+  text-align: right;
   height: 50px;
   border-radius: 3px;
   box-shadow: 2px 2px 2px;
@@ -22,15 +23,15 @@ nav {
   padding-left: 10px;
   position: fixed;
   top: 0px;
-  right:0;
-  left:0;
-  z-index:1030;
+  right: 0;
+  left: 0;
+  z-index: 1030;
   border-radius: 10px;
+  padding-right: 5%;
 }
 
 nav h1 {
-  display: inline;
-  color: #1c6fed;
+  display: none;
 }
 
 nav ul {
@@ -53,6 +54,15 @@ nav ul li{
 
 header {
   margin-top: 100px;
+}
+
+.title_banner {
+  margin-top: 63px;
+  background-image: url(banner_image.jpg);
+  height: 350px;
+  border-radius: 15px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 main {
@@ -86,7 +96,6 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   background-color: rgba(255, 255, 255,0.8);
-  margin-top: 100px;
   border-radius: 25px;
 }
 
@@ -257,6 +266,13 @@ hr:before {
 
 /* CSS for Art Page */
 
+.art_title {
+  background-color: rgba(255, 255, 255,0.8);
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .art_container {
   display: flex;
   flex-direction: row;
@@ -269,6 +285,8 @@ hr:before {
   flex: 2;
   font-weight: bold;
   font-size: 3em;
+  background-color: rgba(255, 255, 255,0.8);
+  border-radius: 15px;
 }
 
 h3 {
@@ -306,6 +324,8 @@ h3 {
   flex: 8;
   margin-left: 2%;
   margin-right: 2%;
+  background-color: rgba(255, 255, 255,0.8);
+  border-radius: 15px;
 }
 
 .dates {
@@ -320,6 +340,8 @@ h3 {
   float: left;
   width: 200px;
   height: 250px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .art_pic_two {
@@ -330,6 +352,8 @@ h3 {
   float: left;
   width: 200px;
   height: 250px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .art_pic_three {
@@ -340,6 +364,8 @@ h3 {
   float: left;
   width: 200px;
   height: 250px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .art_pic_four {
@@ -350,6 +376,8 @@ h3 {
   float: left;
   width: 200px;
   height: 250px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .art_pic_five {
@@ -360,6 +388,9 @@ h3 {
   float: left;
   width: 200px;
   height: 250px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5%;
 }
 
 /* CSS for book page */
@@ -431,6 +462,12 @@ h3 {
     text-align: center;
   }
 
+  nav h1 {
+    display: inline;
+    padding-left: 20%;
+    color: #1c6fed;;
+  }
+
   nav a {
     display: block;
     font-size: 1.3em;
@@ -439,6 +476,10 @@ h3 {
 
   header {
     margin-top: 500px;
+  }
+
+  .title_banner {
+    display: none;
   }
 
   .container {

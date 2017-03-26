@@ -30,9 +30,5 @@ http://www.biblestudy.org/maps/roman-empire.html
 battle page
 https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest
 
-
-old code:
-
-<a href="battle_two.jpg"><img class=' history_one_img battle_image' src="battle_two.jpg"></a>
-<p class='history_one_para'>Aenean auctor hendrerit turpis a pulvinar. Sed justo risus, pulvinar in orci sit amet, vulputate elementum ipsum. Duis at ipsum in quam feugiat tincidunt at nec augue. Morbi pretium dolor nec orci maximus auctor. Sed quam libero, lacinia et bibendum a, consectetur ut velit. Proin tincidunt sodales ante. Aenean euismod mollis nisl nec posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium vel nunc a commodo. Morbi dignissim fermentum odio et ullamcorper. Duis ut velit sagittis, suscipit ligula eget, consectetur ante. Nam consectetur augue ut neque laoreet, at auctor est mollis. Sed ultrices tortor sed ultrices dignissim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-</p>
+banner_image:
+https://fr.wikipedia.org/wiki/Jean-Baptiste_Marie_Pierre
