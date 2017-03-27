@@ -58,11 +58,23 @@ header {
 
 .title_banner {
   margin-top: 63px;
+  padding-top: 100px;
   background-image: url(banner_image.jpg);
   height: 350px;
   border-radius: 15px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+
+.title_banner_div {
+  background-color: rgba(29,39,38,0.7);
+  margin-left: 30%;
+  margin-right: 30%;
+  z-index: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border-radius: 15px;
 }
 
 main {
@@ -181,7 +193,7 @@ header {
   text-align: center;
 }
 
-hr { 
+.line_break { 
   height: 30px; 
   border-style: solid; 
   border-color: #8c8b8b; 
@@ -189,7 +201,7 @@ hr {
   border-radius: 20px; 
 } 
 
-hr:before { 
+.line_break:before { 
   display: block; 
   content: ""; 
   height: 30px; 
