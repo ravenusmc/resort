@@ -7,18 +7,18 @@
 }
 
 #wrapper {
-  width: 85%;
+  width: 95%;
   margin-right: auto;
   margin-left: auto;
   font-family: 'Playfair Display', serif;
 }
 
 nav {
-  text-align: right;
+  text-align: center;
   height: 50px;
   border-radius: 3px;
   box-shadow: 2px 2px 2px;
-  background-color: rgba(244, 246, 249, 0.8);
+  background-color: rgba(28, 111, 237, 1.0);
   padding-top: 10px;
   padding-left: 10px;
   position: fixed;
@@ -41,7 +41,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: #fff;
 }
 
 nav a:hover {
@@ -60,7 +60,7 @@ header {
   margin-top: 63px;
   padding-top: 100px;
   background-image: url(banner_image.jpg);
-  height: 350px;
+  height: 700px;
   border-radius: 15px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -180,7 +180,6 @@ dt {
   border-radius: 100px;
   margin-left: 25%;
   margin-right: 25%;
-  border: 3px solid #1c6fed;
 }
 
 .about_paragraph {
