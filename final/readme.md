@@ -32,3 +32,9 @@ https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest
 
 banner_image:
 https://fr.wikipedia.org/wiki/Jean-Baptiste_Marie_Pierre
+
+old code:
+for title image
+  /*background-image: url(banner_image.jpg);*/
+
+/*  background-image: url(main.jpg);*/
