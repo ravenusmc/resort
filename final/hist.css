@@ -282,6 +282,27 @@ header {
 
 /* CSS for Art Page */
 
+.title_banner_art {
+  margin-top: 63px;
+  padding-top: 100px;
+  background-image: url(https://source.unsplash.com/oLhTLD-RBsc);
+  height: 700px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.title_banner_div_art {
+  background-color: rgba(29,39,38,0.7);
+  margin-left: 30%;
+  margin-right: 30%;
+  z-index: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border-radius: 15px;
+  font-family: 'Fugaz One',cursive;
+}
+
 .art_title {
   background-color: rgba(255, 255, 255,0.8);
   border-radius: 15px;
