@@ -38,3 +38,23 @@ for title image
   /*background-image: url(banner_image.jpg);*/
 
 /*  background-image: url(main.jpg);*/
+
+
+/*.line_break { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+
+.line_break:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}*/
