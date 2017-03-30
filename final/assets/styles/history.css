@@ -214,27 +214,40 @@ dt {
 
 #contact_section { 
   background-color: rgba(28, 111, 237, 0.9);
+  margin-top: -20px;
+  margin-bottom: -20px;
 }
 
-label {
-  float: left;
-  display: block;
-  width: 8em;
-  padding-right: 1em;
+.contact_title {
+  padding-top: 80px;
+}
+
+form {
+  
 }
 
 input {
   display: block;
   margin-bottom: 1em;
+  width: 40%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 22px;
 }
 
 textarea {
   display: block;
   margin-bottom: 1em;
+  width: 40%;
+  font-size: 22px;
 }
 
 #mySubmit {
   margin-left: 11em;
+}
+
+.contact_submit_button {
+
 }
 
 /* CSS for Battle Page */
