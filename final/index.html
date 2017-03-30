@@ -4,7 +4,7 @@
   <meta charset='utf-8'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mike's History</title>
-  <link rel="stylesheet" type="text/css" href="hist.css">
+  <link rel="stylesheet" type="text/css" href="assets/styles/history.css">
   <link rel="icon" href="ega.png" type="image/icon">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -107,7 +107,6 @@
     </section>
 
     <section id='about_section'>
-
       <div class='about_one'>
         <h2 class='center sub_heading font_used'>About Me</h2>
 
@@ -119,22 +118,28 @@
 
         <p class='about_paragraph'>Finally, I have fully immersed myself in the Atlanta tech community attending meetups, conferences as well as hackathons to grow as a developer. I continue to learn by staying up to date with latest languages and technologies that will help me achieve those goals.</p>
       </div>
-
       <div class='about_two'>
         <img src="assets/images/index/Cuddy.JPG" alt='site creator Mike Cuddy'>
       </div>
-
     </section>
 
+    <section id='contact_section'>
+      <h2 class='center'>Contact Me / Request My Services</h2>
+      <form name="reservation" method='post' id='order' action="">
+        <label for='MyFName'>*First Name:</label><input type="MyFName" name="MyFName" id="MyFName" required="required"><br>
+        <label for='MyLName'>*Last Name:</label><input type="MyLName" name="MyLName" id="MyLName" required="required"><br>
+        <label for='MyEmail'>*Email:</label><input type="email"  name="MyEmail" id="MyEmail" required="required"><br>
+        <label for='MyPhone'>&nbsp;Phone:</label><input type="tel" name="MyPhone" id="MyPhone"><br>
+        <label for="comments">&nbsp;Comments:</label><textarea name="myComments" id="myComments" rows="4" cols="22"></textarea><br>
+        <input id="mySubmit" type="submit" value="submit">
+      </form>
+    </section>
 
     <!-- Footer Elements -->
     <footer class='font_used'>
-      Copyright &copy; 2017 Mike's History Site<br>
+      Copyright &copy; 2017 Double Sun Productions<br>
       <a href="mailto:mcuddy77@gmail.com">mcuddy77@gmail.com</a>
     </footer>
-
   </div>
-  
-
 </body>
 </html>
