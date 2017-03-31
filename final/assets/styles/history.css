@@ -6,6 +6,7 @@
 
 .title_font {
   font-family: 'Fugaz One',cursive;
+  font-size: 20px;
 }
 
 /* General CSS */
@@ -166,7 +167,7 @@ footer {
 
 #faq_section {
   background-color: rgba(28, 111, 237, 0.9);
-  margin-top: -22px;
+  margin-top: -41px;
 }
 
 .sub_heading {
@@ -183,6 +184,10 @@ dt {
 }
 
 /* CSS for Home/index/About section */
+
+.about_title {
+  color: rgb(28, 111, 237);
+}
 
 #about_section {
   margin-top: -15px;
