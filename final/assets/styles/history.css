@@ -20,12 +20,8 @@
   width: 93%;
   margin-right: auto;
   margin-left: auto;
-  font-family: 'Playfair Display', serif;
 }
 
-.font_used {
-  font-family: 'Fugaz One',cursive;
-}
 
 nav {
   text-align: center;
@@ -204,7 +200,7 @@ dt {
 
 .about_two {
   flex: 5;
-  margin-top: 5%;
+  margin-top: 33%;
 }
 
 .about_two img {
@@ -215,6 +211,8 @@ dt {
 
 .about_paragraph {
   margin-left: 10%;
+  font-size: 22px;
+  line-height: 36px;
 }
 
 /* CSS for Home/index/Contact section */
@@ -231,7 +229,6 @@ dt {
 }
 
 .contact_paragraph {
-  font-family: 'Open Sans',sans-serif;
   margin-top: 30px;
   padding: 0 120px;
   font-size: 22px;
