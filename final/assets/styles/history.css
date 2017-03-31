@@ -1,3 +1,13 @@
+/* CSS used throughout the Project */
+
+.center {
+  text-align: center;
+}
+
+.title_font {
+  font-family: 'Fugaz One',cursive;
+}
+
 /* General CSS */
 
 #main_page {
@@ -47,6 +57,7 @@ nav ul {
 nav a {
   text-decoration: none;
   color: #fff;
+  font-size: 25px;
 }
 
 nav a:hover {
@@ -84,10 +95,6 @@ header {
 
 main {
   padding-bottom: 3px;
-}
-
-.center {
-  text-align: center;
 }
 
 main ul {
@@ -214,16 +221,30 @@ dt {
 
 #contact_section { 
   background-color: rgba(28, 111, 237, 0.9);
-  margin-top: -20px;
-  margin-bottom: -20px;
+  margin-top: -43px;
 }
 
 .contact_title {
+  font-size: 50px;
+  line-height: 20px;
+  padding-top: 95px;
+}
+
+.contact_paragraph {
+  font-family: 'Open Sans',sans-serif;
+  margin-top: 30px;
+  padding: 0 120px;
+  font-size: 22px;
+  line-height: 36px;
+}
+
+.form_title {
   padding-top: 80px;
 }
 
 form {
-  
+  margin-left: 10%;
+  padding-bottom: 3%;
 }
 
 input {
@@ -231,24 +252,15 @@ input {
   margin-bottom: 1em;
   width: 40%;
   padding-top: 20px;
-  padding-bottom: 10px;
   font-size: 22px;
 }
 
 textarea {
   display: block;
-  margin-bottom: 1em;
   width: 40%;
   font-size: 22px;
 }
 
-#mySubmit {
-  margin-left: 11em;
-}
-
-.contact_submit_button {
-
-}
 
 /* CSS for Battle Page */
 
