@@ -3,8 +3,12 @@ resources:
 Mountain.jpg
 http://www.bc.edu/bc_org/avp/cas/his/CoreArt/art/rom_fri_wand.html
 
+https://en.wikipedia.org/wiki/Wanderer_above_the_Sea_of_Fog
+
 Napoleon.jpg
 https://www.khanacademy.org/humanities/monarchy-enlightenment/neo-classicism/a/david-napoleon-crossing-the-alps
+
+https://en.wikipedia.org/wiki/Napoleon_Crossing_the_Alps
 
 dix.jpg
 http://www.skd.museum/en/special-exhibitions/archive/otto-dix-der-krieg-war/
