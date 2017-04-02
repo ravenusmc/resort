@@ -31,7 +31,6 @@
 nav {
   text-align: center;
   height: 50px;
-  border-radius: 3px;
   box-shadow: 2px 2px 2px;
   background-color: rgba(28, 111, 237, 1.0);
   padding-top: 10px;
@@ -41,7 +40,6 @@ nav {
   right: 0;
   left: 0;
   z-index: 1030;
-  border-radius: 10px;
   padding-right: 5%;
   padding-top: 25px;
 }
@@ -106,7 +104,7 @@ footer {
   text-align: center; 
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: rgba(255, 255, 255,0.9);
+  background-color: rgba(28, 111, 237, 0.9);
 }
 
 /* CSS for Home/index page */
@@ -300,6 +298,42 @@ textarea {
   display: block;
   width: 75%;
   font-size: 22px;
+}
+
+/* CSS for Index Page / site map */
+
+#site_map {
+  background-color: rgba(255, 255, 255,0.9);
+  margin-top: -43px;
+  margin-bottom: -1px;
+}
+
+.site_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.site_map_font_color {
+  color: #000;
+  text-decoration: none;
+}
+
+.home_nav {
+  margin-left: 30px;
+}
+
+.map_container {
+  margin-left: 10%;
+  padding-bottom: 3%;
+  flex: 5;
+}
+
+.site_map_picture {
+  flex: 5;
+  background-image: url(https://source.unsplash.com/PO7CGnoDFUI);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 
