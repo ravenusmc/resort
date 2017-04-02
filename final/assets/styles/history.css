@@ -9,6 +9,10 @@
   font-size: 20px;
 }
 
+.main_font {
+  font-family: 'Fugaz One',cursive;
+}
+
 /* General CSS */
 
 #main_page {
@@ -227,6 +231,41 @@ dt {
   margin-top: -43px;
 }
 
+.contact_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contact_area_one {
+  flex: 5;
+}
+
+.contact_area_two {
+  flex: 5;
+}
+
+table {
+  margin: auto;
+  margin-top: 25px;
+  border: 3px solid #000;
+  width: 90%;
+  border-collapse: collapse;
+  background-color: rgb(255, 255, 255);
+  margin-right: 10%;
+}
+
+th {
+  padding: 10px;
+  border: 3px solid #000;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+  border: 3px solid #000;
+}
+
 .contact_title {
   font-size: 50px;
   line-height: 20px;
@@ -252,14 +291,14 @@ form {
 input {
   display: block;
   margin-bottom: 1em;
-  width: 40%;
+  width: 75%;
   padding-top: 20px;
   font-size: 22px;
 }
 
 textarea {
   display: block;
-  width: 40%;
+  width: 75%;
   font-size: 22px;
 }
 
@@ -608,6 +647,22 @@ h3 {
   .about_two {
     padding-bottom: 10px;
   }
+
+/* CSS media queries for Index page / contact section */
+
+.contact_container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.contact_area_one {
+  flex: 5;
+}
+
+.contact_area_two {
+  flex: 5;
+}
 
   /* CSS media queries for Art Page */
 
