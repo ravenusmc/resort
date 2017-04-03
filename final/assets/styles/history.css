@@ -60,7 +60,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #1c6fed;
+  color: #000;
 }
 
 nav ul li{
@@ -278,7 +278,7 @@ td {
 }
 
 .form_title {
-  padding-top: 80px;
+  padding-top: 30px;
 }
 
 form {
@@ -334,6 +334,10 @@ textarea {
   background-image: url(https://source.unsplash.com/PO7CGnoDFUI);
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+
+.change_font a:hover {
+  color: #1c6fed;
 }
 
 
@@ -420,6 +424,10 @@ textarea {
   height: 245px;
 }
 
+iframe {
+  margin-left: 10%;
+}
+
 /* CSS for Art Page */
 
 .title_banner_art {
@@ -495,7 +503,7 @@ h3 {
 }
 
 .art_pic_two {
-    margin-top: 15%;
+    margin-top: 20%;
 }
 
 .art_pic_two img {
@@ -507,7 +515,7 @@ h3 {
 }
 
 .art_pic_three {
-  margin-top: 15%;
+  margin-top: 12%;
 }
 
 .art_pic_three img {
@@ -590,14 +598,6 @@ h3 {
   float: left;
   margin: 1.50%;
 }
-
-/* Old Gallery set up */
-/*.gallery {
-  width: 30%;
-  height: 20%;
-  float: left;
-  margin: 1.50%;
-}*/
 
 .show_on_mobile {
   display: none;
