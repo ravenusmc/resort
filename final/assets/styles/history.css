@@ -98,6 +98,8 @@ main {
 
 main ul {
   line-height: 2em;
+  text-align: center;
+  list-style: none;
 }
 
 footer {
