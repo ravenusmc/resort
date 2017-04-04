@@ -11,6 +11,7 @@ function goBack() {
 //Index Page code 
 //This function will change the image at the bottom of the Index page / Site Map section
 function changeSiteMapImage(){
+
   let target = document.getElementById('site_map_image');
 
   if (target.style.color == 'black'){
@@ -21,6 +22,23 @@ function changeSiteMapImage(){
     target.style.color = 'black';
   }
 };
+
+//This function will change the text on when the user scrolls over it. 
+function changeText() {
+
+  let target = document.getElementById('change_text');
+
+  if (target.style.color == 'black'){
+    document.getElementById("change_text").innerHTML = "Understand History";
+    target.style.color = 'blue';
+  }else {
+    document.getElementById("change_text").innerHTML = "Learn History";
+    target.style.color = 'black';
+  }
+
+  
+
+}
 
 
 

@@ -136,6 +136,11 @@ footer {
   font-size: 17px;
 }
 
+.basic_info {
+  font-size: 22px;
+  line-height: 36px;
+}
+
 .area_two {
   flex: 5;
   height: 500px;
