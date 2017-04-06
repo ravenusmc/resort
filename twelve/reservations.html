@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pacific Trails Resort</title>
+  <link rel="stylesheet" type="text/css" href="pacific.css">
+  <!-- [if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+  </script>
+  <![endif]-->
+</head>
+<body>
+
+  <div id='wrapper'>
+
+    <!-- Header elements -->
+    <header>
+      <h1>Pacific Trails Resort</h1>
+    </header>
+
+    <!-- Navbar -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="yurts.html">Yurts</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="shop.html">Shop</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Elements -->
+    <main>
+      <h2>Reservations at Pacific Trails</h2>
+
+      <h3>Contact Us</h3>
+      <p>Required Information is marked with an asterisk (*).</p>
+      <form name="reservation" method='post' id='order' action="http://webdevbasics.net/scripts/pacific.php">
+        <label for='MyFName'>*First Name:</label><input type="MyFName" name="MyFName" id="MyFName" required="required"><br>
+        <label for='MyLName'>*Last Name:</label><input type="MyLName" name="MyLName" id="MyLName" required="required"><br>
+        <label for='MyEmail'>*Email:</label><input type="email"  name="MyEmail" id="MyEmail" required="required"><br>
+        <label for='MyPhone'>&nbsp;Phone:</label><input type="tel" name="MyPhone" id="MyPhone"><br>
+        <label for='MyDate'>&nbsp;Arrival Date:</label><input type="date" name="MyDate" id="MyDate"><br>
+        <label for='MyNights'>&nbsp;Nights:</label><input type="number" name="MyNights" id="MyNights" min="1" max='14'><br>
+        <label for="comments">&nbsp;Comments:</label><textarea name="myComments" id="myComments" rows="4" cols="22"></textarea><br>
+
+        <input id="mySubmit" type="submit" value="submit">
+
+      </form>
+
+    </main>
+
+    <!-- Footer Elements -->
+    <footer>
+      Copyright &copy; 2017 Pacific Trails Resort<br>
+      <a href="mailto:mcuddy77@gmail.com">mcuddy77@gmail.com</a>
+    </footer>
+
+  </div>
+  
+
+</body>
+</html>
