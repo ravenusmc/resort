@@ -109,6 +109,11 @@ footer {
   background-color: rgba(28, 111, 237, 0.9);
 }
 
+.footer_anchor_tags {
+  text-decoration: none;
+  color: #000;
+}
+
 /* CSS for Home/index page */
 
 .container {
@@ -609,6 +614,19 @@ h3 {
 .show_on_mobile {
   display: none;
 }
+
+/* CSS for Shopping Cart Page */
+
+.title_banner_shopping {
+  margin-top: 63px;
+  padding-top: 100px;
+  background-image: url(https://source.unsplash.com/CV42OL7nLsI);
+  height: 700px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+
 
 
 /* CSS for media queries */
