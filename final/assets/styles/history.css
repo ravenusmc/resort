@@ -298,7 +298,7 @@ form {
   padding-bottom: 3%;
 }
 
-input {
+.index_input {
   display: block;
   margin-bottom: 1em;
   width: 75%;
@@ -626,7 +626,23 @@ h3 {
   background-repeat: no-repeat;
 }
 
+.container_shopping {
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-top: 25px;
+}
 
+.leftfloat {
+  float: left;
+}
+
+.shopping_image {
+  height: 150px;
+  width:150px;
+}
+
+.clear {
+  clear: both;
+}
 
 
 /* CSS for media queries */
