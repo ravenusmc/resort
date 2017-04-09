@@ -425,6 +425,8 @@ textarea {
   margin-left: 1%;
   border: solid 2px #dee2e8;
   padding: 10px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .aside_title {
@@ -432,13 +434,15 @@ textarea {
   text-transform: uppercase;
 }
 
+.battle_page_aside {
+  text-decoration: none;
+}
+
 .battle_image {
   height: 245px;
 }
 
-iframe {
-  margin-left: 10%;
-}
+
 
 /* CSS for Art Page */
 
