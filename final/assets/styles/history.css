@@ -312,6 +312,10 @@ textarea {
   font-size: 22px;
 }
 
+.lincoln_gif {
+  margin-top: 5%;
+}
+
 /* CSS for Index Page / site map */
 
 #site_map {
@@ -705,6 +709,7 @@ h3 {
     flex-direction: column;
     flex-wrap: wrap;
     margin-top: 250px;
+    padding-bottom: 400px;
   }
 
   .title_home_main {
@@ -716,9 +721,13 @@ h3 {
     padding-top: 100px;
   }
 
-  .area_two {
-    display: none;
-  }
+.font_awesome_area {
+  margin-top: 8%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 
   .about_two {
     display: none;
@@ -750,6 +759,19 @@ h3 {
 
 .contact_area_two {
   flex: 5;
+}
+
+.contact_table {
+  margin-bottom: 20px;
+  margin-left: 5%;
+}
+
+.lincoln_gif {
+    display: none;
+}
+
+.site_map_picture {
+    display: none;
 }
 
   /* CSS media queries for Art Page */
@@ -800,5 +822,7 @@ h3 {
   .show_on_mobile {
     display: inline;
   }
+
+
 
 }
