@@ -482,12 +482,12 @@ textarea {
   margin-bottom: 2%;
 }
 
-.art_area_one {
+/*.art_area_one {
   flex: 2;
   font-weight: bold;
   font-size: 3em;
   background-color: rgba(255, 255, 255,0.9);
-}
+}*/
 
 h3 {
   margin-top: 5%;
