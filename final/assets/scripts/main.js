@@ -34,10 +34,21 @@ function changeText() {
   }else {
     document.getElementById("change_text").innerHTML = "Learn History";
     target.style.color = 'black';
-  }
+  }  
+}
 
-  
+//This function will again change text on the index page. 
+function changeTextTwo() {
 
+  let target = document.getElementById('change_text_two');
+
+  if (target.style.color == 'black'){
+    document.getElementById("change_text_two").innerHTML = "Learn";
+    target.style.color = 'blue';
+  }else {
+    document.getElementById("change_text_two").innerHTML = "Understand";
+    target.style.color = 'black';
+  }  
 }
 
 
