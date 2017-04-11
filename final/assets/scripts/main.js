@@ -7,7 +7,6 @@ function goBack() {
     window.history.back();
 }
 
-
 //Index Page code 
 //This function will change the image at the bottom of the Index page / Site Map section
 function changeSiteMapImage(){
