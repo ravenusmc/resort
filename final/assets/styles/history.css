@@ -720,7 +720,7 @@ h3 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding-bottom: 400px;
+    padding-bottom: 500px;
   }
 
   .title_home_main {
@@ -732,13 +732,15 @@ h3 {
     padding-top: 100px;
   }
 
-.font_awesome_area {
-  margin-top: 8%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
+  .font_awesome_area {
+    margin-top: 8%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+/* About Section CSS */
 
   .about_two {
     display: none;
@@ -783,6 +785,13 @@ h3 {
 
 .site_map_picture {
     display: none;
+}
+
+.contact_paragraph {
+  margin-top: 30px;
+  padding: 0 120px;
+  font-size: 20px;
+  line-height: 18px;
 }
 
   /* CSS media queries for Art Page */
