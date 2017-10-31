@@ -1,0 +1,17 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image1 {
+  width: 400px;
+}
+
+.image2 {
+  width: 400px;
+}
+
+.image3 {
+  width: 450px;
+}
