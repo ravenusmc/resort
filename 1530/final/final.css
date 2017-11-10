@@ -5,7 +5,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 2000px;
+  height: 4000px;
 }
 
 .title_div {
