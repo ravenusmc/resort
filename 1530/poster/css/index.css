@@ -12,13 +12,9 @@ main {
 .image_section {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 img {
   height: 250px;
-}
-
-.center_image {
-  margin-left: 3%;
-  margin-right: 3%;
 }
