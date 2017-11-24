@@ -17,4 +17,18 @@ main {
 
 img {
   height: 250px;
+  width: 300px;
 }
+
+.poster_area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.final_poster {
+  height: 1200px;
+  width: 800px;
+}
+
