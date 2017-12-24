@@ -2,6 +2,11 @@
 The CSS in this file will control all of the CSS for my GTC home page-break-inside.
 *************************/
 
+/*************************
+Generic CSS
+*************************/
+
+
 body, html {
   height: 100%;
 }
@@ -14,10 +19,38 @@ body, html {
   text-align: center;
 }
 
+h2 a {
+  text-decoration: none;
+  color: white;
+}
+
+h2 a:hover {
+  color: orange;
+}
+
+/*************************
+Page Specific 
+*************************/
+
 #top {
   background-image: url(road.jpg);
   min-height: 100%; 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 675px;
+}
+
+.header_div {
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
 }
