@@ -71,5 +71,16 @@ CSS for Current Courses Area
 
 .courses_area {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.fix_list_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.non_online_font_size_fix {
+  font-size: 20px;
 }
