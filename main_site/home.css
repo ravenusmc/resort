@@ -1,0 +1,23 @@
+/*************************
+The CSS in this file will control all of the CSS for my GTC home page-break-inside.
+*************************/
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.center {
+  text-align: center;
+}
+
+#top {
+  background-image: url(road.jpg);
+  min-height: 100%; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
