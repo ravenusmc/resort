@@ -103,3 +103,11 @@ CSS for Courses Area
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+/*************************
+CSS for Footer Area
+*************************/
+
+footer {
+  margin-top: 50px;
+}
