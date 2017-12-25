@@ -48,6 +48,7 @@ CSS for Header Area
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 header {
@@ -66,7 +67,7 @@ header {
 }
 
 /*************************
-CSS for Current Courses Area
+CSS for Courses Area
 *************************/
 
 .courses_area {
@@ -83,4 +84,22 @@ CSS for Current Courses Area
 
 .non_online_font_size_fix {
   font-size: 20px;
+}
+
+#pic_area_one {
+  background-image: url(bridge.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#pic_area_two {
+  background-image: url(mountain.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
