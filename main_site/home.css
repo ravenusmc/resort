@@ -105,6 +105,22 @@ CSS for Courses Area
 }
 
 /*************************
+CSS for Other Work Area
+*************************/
+
+.other_work_div {
+  display: flex;
+  flex-direction: column;
+}
+
+.other_work_area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100px;
+}
+
+/*************************
 CSS for Footer Area
 *************************/
 
