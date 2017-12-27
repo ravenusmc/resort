@@ -132,3 +132,18 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+/*************************
+Media Queries 
+*************************/
+@media only all and (max-width: 768px){
+
+  .other_work_area {
+    flex-direction: column;
+    align-items: center;
+    height: 175px;
+  }
+
+
+}
+
