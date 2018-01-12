@@ -77,6 +77,10 @@ CSS for Courses Area
   align-items: center;
 }
 
+.change_link:hover {
+  color: orange;
+}
+
 .fix_list_info {
   display: flex;
   flex-direction: column;
