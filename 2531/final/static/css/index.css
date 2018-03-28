@@ -1,0 +1,33 @@
+.center {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.image_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+img {
+  height: 250px;
+  width: 300px;
+}
+
+.poster_area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.final_poster {
+  height: 1200px;
+  width: 800px;
+}
