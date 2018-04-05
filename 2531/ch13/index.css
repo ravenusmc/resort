@@ -1,0 +1,19 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  height: 475px;
+  width: 600px;
+}
+
+#poetry {
+  height: 500px;
+  width: 500px;
+}
+
+ul {
+  list-style: none;
+}
